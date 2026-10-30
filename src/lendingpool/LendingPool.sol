@@ -18,6 +18,6 @@ pragma solidity 0.8.30;
  * @author Kelechi Kizito Ugwu
  * @notice The lending pool is the collection of all the asset reserves(e.g. DAI, USDC, WETH, etc.)
  * @notice The lending pool uses the lending pool core and the lending pool data provider to manage the reserves and the state of the pool.
- * @dev 
+ * @dev
  */
 contract LendingPool {}

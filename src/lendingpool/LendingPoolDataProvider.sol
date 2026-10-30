@@ -11,6 +11,6 @@ pragma solidity 0.8.30;
  * @notice The lending pool data provider calculates the ETH equivalent of a user's balance.
  * @notice The lending pool data provider aggregates data from the lending pool core to provide info to the lending pool.
  * @notice The lending pool data provider calculates the average LTV nd average LR.
- * @dev 
+ * @dev
  */
 contract LendingPoolDataProvider {}

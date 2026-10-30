@@ -25,5 +25,9 @@ library WadRayMath {
         return HALF_WAD;
     }
 
-    function _wadMul(uint256 a, uint256 b) internal pure returns (uint256) {}
+    function _wadMul(uint256 a, uint256 b) internal pure returns (uint256) {
+        if (a == 0 || b == 0) return 0;
+
+        return (a * b + HALF_WAD) / WAD;
+    }
 }

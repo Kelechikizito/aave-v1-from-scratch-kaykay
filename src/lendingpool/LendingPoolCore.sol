@@ -32,6 +32,6 @@ pragma solidity 0.8.30;
  * @author Kelechi Kizito Ugwu
  * @notice The lending pool core holds the state of every reserve and all the assets deposited.
  * @notice The lending pool core handles the basic logic - cumulation of indexes, calculation of interest rates, etc.
- * @dev 
+ * @dev
  */
 contract LendingPoolCore {}
