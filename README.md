@@ -1,0 +1,2 @@
+- I will use upgradeable contracts
+- No aToken interest redirection
